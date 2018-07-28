@@ -1,8 +1,9 @@
-**SudokuN**
+# SudokuN
 
 The aim of this project is to develop a vision-based sudoku solver that is capable of solving printed sudoku puzzles on paper using computers with camera inputs. This project is called SudokuN, which indicates 'Mr.Sudoku' in Japanese.  
 
-**Instruction**
+## Instruction  
+
 To use SudokuN, please open and run the file 'Webcam_gui.m' in the folder 'Sudokun_Matlab'.  
 After running the file, there will be two buttons on the user interface: 'preview' and 'phot and solve'. Please follow the instructions below:  
 
@@ -18,8 +19,8 @@ After running the file, there will be two buttons on the user interface: 'previe
 We have converted the Matlab codes to a software application. Please click '.\Sudokun_exe\for_testing\Sudokun.exe' 
 to have a try. The following operations are the same as the instruction above. A demonstration of how to use this
 software is also provided in '.\Sudokun_exe\Demo.mp4'.
- 
-**Prerequisites for deployment**
+
+## Prerequisites for deployment  
 
 - Windows Platform
 - Matlab version 9.4 (R2018a)
@@ -33,14 +34,14 @@ software is also provided in '.\Sudokun_exe\Demo.mp4'.
 - YALMIP Toolbox, available in the folder YALMIP-master(from https://yalmip.github.io/download/)
 - A connected camera (resolution >= 1920*1080)
 
-**Common Problems**
+## Common Problems  
 
 - If your webcam is inaccessible, we provide some test images. You can feed provided images into the function 'sudokuBrain.m' to check the performance. We have provided 6 testing images in '.\Sudokun_Matlab\Testimage'.
 - Please add the folder 'YALMIP-master' to the Matlab's path.
 - If your computer is under MacOs platform, please change the 'winvideo' to 'macvideo' in the file 'Webcam_gui.m'. Please refer to Matlab's inbuilt function webcam() for more information.
 - Please guarantee a normal illuminance for testing.
 
-**Notes**
+## Notes  
 
 The testing computer is Microsoft Surface Pro4.
 The default camera is 'Microsoft Camera Rear'.
