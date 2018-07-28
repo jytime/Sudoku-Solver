@@ -1,0 +1,133 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration file="C:\Users\kobex\Desktop\SudokuProject_GUI_6.02\Sudokum.prj" location="C:\Users\kobex\Desktop\SudokuProject_GUI_6.02" name="Sudokum" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>Sudokum</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>dogs</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\Sudokum\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\Sudokum\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\Sudokum\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\Sudokum\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\Sudokum</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages>
+      <item>&lt;package displayname="OS Generic Video Interface" enabled="true" name="OS Generic Video Interface" product="Image Acquisition Toolbox"/&gt;</item>
+    </param.support.packages>
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+      <param.help.text />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Webcam_gui.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\cropImage.m</file>
+      <file>${PROJECT_ROOT}\data.mat</file>
+      <file>${PROJECT_ROOT}\draw_rec.m</file>
+      <file>${PROJECT_ROOT}\fillPuzzle.m</file>
+      <file>${PROJECT_ROOT}\findBorders.m</file>
+      <file>${PROJECT_ROOT}\findCorners.m</file>
+      <file>${PROJECT_ROOT}\findEdges.m</file>
+      <file>${PROJECT_ROOT}\homo2D.m</file>
+      <file>${PROJECT_ROOT}\KNN_recognize_digits.m</file>
+      <file>${PROJECT_ROOT}\MNIST_transfer_net.mat</file>
+      <file>${PROJECT_ROOT}\normalise2dpts.m</file>
+      <file>${PROJECT_ROOT}\project2d.m</file>
+      <file>${PROJECT_ROOT}\projectBack.m</file>
+      <file>${PROJECT_ROOT}\projectImage.m</file>
+      <file>${PROJECT_ROOT}\puzzleMode.m</file>
+      <file>${PROJECT_ROOT}\recognizeCNN.m</file>
+      <file>${PROJECT_ROOT}\recognizeKNN.m</file>
+      <file>${PROJECT_ROOT}\recognizeOcr.m</file>
+      <file>${PROJECT_ROOT}\scanning.m</file>
+      <file>${PROJECT_ROOT}\showSolvedSodoku.m</file>
+      <file>${PROJECT_ROOT}\sodoku.m</file>
+      <file>${PROJECT_ROOT}\sudokuBrain.m</file>
+    </fileset.resources>
+    <fileset.package />
+    <fileset.depfun />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\Sudokum\for_testing" name="readme.txt" optional="true">C:\Users\kobex\Desktop\SudokuProject_GUI_6.02\Sudokum\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\Sudokum\for_testing" name="splash.png" optional="false">C:\Users\kobex\Desktop\SudokuProject_GUI_6.02\Sudokum\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\Sudokum\for_testing" name="Sudokum.exe" optional="false">C:\Users\kobex\Desktop\SudokuProject_GUI_6.02\Sudokum\for_testing\Sudokum.exe</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2018a</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
