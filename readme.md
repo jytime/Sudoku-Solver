@@ -2,6 +2,8 @@
 
 The aim of this project is to develop a vision-based sudoku solver that is capable of solving printed sudoku puzzles on paper using computers with camera inputs. This project is called SudokuN, which indicates 'Mr.Sudoku' in Japanese. A video demonstration is provided to show how to use this software.
 
+[![Watch the video](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](http://youtu.be/vt5fpE0bzSY)
+
 ## Instruction  
 
 To use SudokuN, please open and run the file 'Webcam_gui.m' in the folder 'Sudokun_Matlab'.  
