@@ -35,14 +35,10 @@ to have a try. The following operations are the same as the instruction above.
 - YALMIP Toolbox, available in the folder YALMIP-master(from https://yalmip.github.io/download/)
 - A connected camera (resolution >= 1920*1080)
 
-## Common Problems  
+## Notes  
 
 - If your webcam is inaccessible, we provide some test images. You can feed provided images into the function 'sudokuBrain.m' to check the performance. We have provided 6 testing images in '.\Sudokun_Matlab\Testimage'.
 - Please add the folder 'YALMIP-master' to the Matlab's path.
 - If your computer is under MacOs platform, please change the 'winvideo' to 'macvideo' in the file 'Webcam_gui.m'. Please refer to Matlab's inbuilt function webcam() for more information.
 - Please guarantee a normal illuminance for testing.
-
-## Notes  
-
-The testing computer is Microsoft Surface Pro4.
-The default camera is 'Microsoft Camera Rear'.
+- The testing computer is Microsoft Surface Pro4. The default camera is 'Microsoft Camera Rear'.
