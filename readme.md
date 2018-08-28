@@ -1,6 +1,6 @@
 # SudokuN
 
-The aim of this project is to develop a vision-based sudoku solver that is capable of solving printed sudoku puzzles on paper using computers with camera inputs. This project is called SudokuN, which indicates 'Mr.Sudoku' in Japanese. A video demonstration of how to use this software is provided in '.\Sudokun_exe\Demo.mp4'. 
+The aim of this project is to develop a vision-based sudoku solver that is capable of solving printed sudoku puzzles on paper using computers with camera inputs. This project is called SudokuN, which indicates 'Mr.Sudoku' in Japanese. A video demonstration is provided to show how to use this software.
 
 ## Instruction  
 
