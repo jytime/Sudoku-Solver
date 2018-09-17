@@ -10,11 +10,8 @@ To use SudokuN, please open and run the file 'Webcam_gui.m' in the folder 'Sudok
 After running the file, there will be two buttons on the user interface: 'preview' and 'phot and solve'. Please follow the instructions below:  
 
 - Click the button 'preview' to access the camera. It may take a few seconds, depending on your computer.  
-
 - Click the button 'photo and solve'.  
-
 - Select the  region of interest (RoI) and make sure the sudoku puzzle stands right in the middle of RoI.  
-
 - Double click to confirm the RoI.  
 - The result will display after a few seconds. An evaluation of the sudoku difficulty will also be shown.  
 
