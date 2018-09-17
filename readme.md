@@ -6,8 +6,7 @@ The aim of this project is to develop a vision-based sudoku solver that is capab
 
 ## Instruction  
 
-To use SudokuN, please open and run the file 'Webcam_gui.m' in the folder 'Sudokun_Matlab'.  
-After running the file, there will be two buttons on the user interface: 'preview' and 'phot and solve'. Please follow the instructions below:  
+To use SudokuN, please open and run the file 'Webcam_gui.m' in the folder 'Sudokun_Matlab'. After running the file, there will be two buttons on the user interface: 'preview' and 'phot and solve'. Please follow the instructions below:  
 
 - Click the button 'preview' to access the camera. It may take a few seconds, depending on your computer.  
 - Click the button 'photo and solve'.  
